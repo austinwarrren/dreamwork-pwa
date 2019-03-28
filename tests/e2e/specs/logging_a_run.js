@@ -11,7 +11,7 @@ describe('Logging a run', () => {
         cy.get('[data-test="runDistance"]')
             .type('2');
 
-        cy.get('[data-test="runSubmitButton"]')
+        cy.get('[data-test="runLogButton"]')
             .click();
 
         cy.get('[data-test="runDate"]')
